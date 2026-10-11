@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+out/
+.env
+.env.local
+web/.env
+web/.env.local
+contracts/out/
+contracts/cache/
+contracts/lib/
+contracts/broadcast/
+.tools/
+*.log
+*.tsbuildinfo
+.DS_Store

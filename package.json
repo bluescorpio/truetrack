@@ -1,0 +1,18 @@
+{
+  "name": "truetrack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "attest": "ts-node --esm --transpile-only scripts/attest.ts",
+    "attest:once": "ts-node --esm --transpile-only scripts/attest.ts --once"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "viem": "^2.37.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
